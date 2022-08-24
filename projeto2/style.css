@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@400;700&family=Mulish:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  
+  
+}
+:root{
+  --font-Dmsans: font-family: 'DM Sans', sans-serif;
+ --font-inter: font-family: 'Inter', sans-serif;
+ --font-mulish: font-family: 'Mulish', sans-serif;
+ --font-openSans: font-family: 'Open Sans', sans-serif;
+}
+body{
+  min-height: 100Vh;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+}
+
+header{
+  width: 100.5rem;
+  height: 2.3rem;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6.5rem;
+  margin-bottom:5.8rem;
+}
+
+header nav a, strong {
+  font-size: 1.8rem;
+  font-family: var(--font-mulish);
+  color: #1F1534;
+}
+
+header nav a {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+header nav a:hover{
+  font-weight: bold;
+  opacity: 1;
+}
+
+header .logo{
+  width: 10.3rem;
+  height: 2.2rem;
+}
+
+header nav  {
+  width: 26.7rem;
+  height: 2.3rem;
+  display: flex;
+  justify-content: space-between;
+
+ 
+
+}
+
+main{
+  width: 100.8rem;
+  height: 43.36rem;
+  display: flex;
+  justify-content: space-between;
+  margin-inline: auto;
+  margin-bottom: 8.3rem;
+}
+
+section{
+  width: 48.9rem;
+  height: 33.2;
+  
+}
+
+section h1 , span{
+  font-family: var(--font-mulish);
+  font-size: 4.9rem;
+  line-height: 5.6rem;
+  font-weight: normal;
+  margin-block: 5.1rem 4rem;
+
+  
+}
+
+span{
+  color: hsl(186, 40%, 67%);
+}
+
+section p,section strong{
+  font-family: var(--font-openSans);
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  color: hsl(256, 5%, 50%);
+  margin-bottom: 4rem;
+
+}
+
+section button {
+  width: 17.9rem;
+  height: 5.6rem;
+  border: none;
+ 
+
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: white;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  text-transform: uppercase;
+
+  
+  border-radius: 0.4rem;
+  background-color: hsl(159, 36%, 57%);
+
+  cursor: pointer;
+}
+
+section button svg {
+  margin-right: 1rem;
+}
+
+section button:hover{
+  background: hsl(159, 36%, 42%);
+}
+
+footer{ 
+  width: 59.2rem;
+  height: 2.8rem;
+  margin-inline: auto;
+  
+  text-align: center;
+  
+}
+
+footer p , footer strong {
+  font-size: 1.8rem;
+}
+
+.balls{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
